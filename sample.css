@@ -1,23 +1,81 @@
-h2 {
-  font-family: "Work Sans";
-  font-size: 40px;
+.header-text {
+  font-family: "Spartan";
+  font-size: 5em;
   letter-spacing: 2px;
   font-weight: 700;
+  color: #fff;
+  float: right;
+}
+
+.sub-title {
+  font-family: "Spartan";
+  font-size: 22.8px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+}
+
+.bottom-title-text {
+  font-family: "Spartan";
+  font-size: 22.8px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.col-md-7.col-md-offset-3.header-container {
+  margin-left: 25%;
+  display: grid;
+  justify-content: right;
+}
+
+.bottom-content {
+  position: absolute;
+  bottom: 0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  left: 250px;
+  height: 250px;
+  width: 70%;
 }
 
 body {
-  background-color: aliceblue;
+  background-image: linear-gradient(
+    to right top,
+    #d5dcea,
+    #cad3e3,
+    #bfc9dc,
+    #b5c0d5,
+    #aab7ce
+  );
+  height: 100vh;
+}
+/* 
+.main-row {
+  height: 100vh;
+} */
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  left: 150px;
 }
 
 .navbar,
 li,
 ul,
 a {
-  font-family: "Work Sans";
+  font-family: "Spartan";
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 300;
-  color: #aeaeae;
+  color: #fff !important;
   display: inline-block;
   text-decoration: none;
+  padding: 15px;
+  left: 60px;
+}
+
+.header-container {
+  margin-top: 300px;
 }
