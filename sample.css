@@ -1,6 +1,6 @@
 .header-text {
   font-family: "Spartan";
-  font-size: 5em;
+  font-size: 4em;
   letter-spacing: 2px;
   font-weight: 700;
   color: #fff;
@@ -9,12 +9,12 @@
 
 .sub-title {
   font-family: "Spartan";
-  font-size: 22.8px;
+  font-size: 18.2px;
   letter-spacing: 1px;
   font-weight: 400;
   color: #fff;
   float: right;
-  line-height: 80px;
+  line-height: 60px;
 }
 
 .bottom-title-text {
@@ -32,13 +32,34 @@
 }
 
 .bottom-content {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  left: 250px;
-  height: 250px;
-  width: 70%;
+  backdrop-filter: blur(20px);
+  left: 150px;
+  height: 150px;
+  width: 90%;
+}
+
+.button-container {
+  position: fixed;
+  right: 0;
+  justify-content: flex-end;
+  bottom: 0;
+  display: flex;
+}
+
+.left-button {
+  bottom: 0;
+  background: #ffffff7d;
+  width: 100px;
+  height: 150px;
+}
+
+.right-button {
+  bottom: 0;
+  background: #b4cdff;
+  width: 100px;
+  height: 150px;
 }
 
 body {
@@ -51,22 +72,24 @@ body {
     #aab7ce
   );
   height: 100vh;
+  background-image: url(https://user-images.githubusercontent.com/33461127/75733287-e2667e00-5cc2-11ea-8265-adb15f7b3232.jpg);
+  background-size: cover;
 }
 /* 
 .main-row {
   height: 100vh;
 } */
-
+/* 
 nav.navbar.navbar-expand-lg.navbar-light {
   left: 150px;
-}
+} */
 
 .navbar,
 li,
 ul,
 a {
   font-family: "Spartan";
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 300;
   color: #fff !important;
@@ -77,5 +100,5 @@ a {
 }
 
 .header-container {
-  margin-top: 300px;
+  margin-top: 100px;
 }
